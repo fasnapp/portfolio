@@ -1,0 +1,35 @@
+.gradient-text {
+  background-image: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-connect {
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  color: #fff;
+  padding: 25px 45px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: transform 0.3s;
+  border: none;
+}
+.btn-connect:hover {
+  transform: scale(1.05);
+}
+
+.btn-resume {
+  padding: 25px 75px;
+  font-size: 24px;
+  font-weight: 500;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+.btn-resume:hover {
+  border-color: #B415FF;
+}
+
