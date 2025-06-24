@@ -1,11 +1,26 @@
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+
+
+/* Adjust profile image size */
+.about-img {
+  width: 250px;
+  height: 300px; /* Change height as needed */
+  object-fit: cover;
+  border-radius: 0;
 }
-.about-title{
-    
+
+/* Paragraph styling */
+.about-para p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
+.progress{
+    background-color: #161513;
+    box-shadow: none;
+}
+.progress-thin {
+  height: 6px !important;
+}
+
+
+
+

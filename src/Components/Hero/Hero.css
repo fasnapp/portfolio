@@ -1,35 +1,39 @@
-.gradient-text {
-  background-image: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.hero {
+  color: #fff;
+   /* optional overall background */
 }
 
-.btn-connect {
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-  color: #fff;
-  padding: 25px 45px;
-  font-size: 24px;
-  font-weight: 500;
-  border-radius: 50px;
-  transition: transform 0.3s;
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Button styling */
+.btn-white {
+  background-color: #fff;
+  color: #000;
   border: none;
 }
-.btn-connect:hover {
-  transform: scale(1.05);
+
+.hero-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-resume {
-  padding: 25px 75px;
-  font-size: 24px;
-  font-weight: 500;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  background: transparent;
-  color: #fff;
-  transition: border-color 0.3s;
+.hero-btn:hover {
+  background-color: #ffc107; /* Bootstrap warning yellow */
+  color: #000;
 }
-.btn-resume:hover {
-  border-color: #B415FF;
+.hero-action{
+    margin-bottom: 12rem;
 }
 
