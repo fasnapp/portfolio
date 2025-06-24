@@ -1,0 +1,19 @@
+.myworks-section {
+  background-color: #161513; /* Pure black background */
+}
+
+.myworks-image {
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.myworks-card {
+  transition: transform 0.3s;
+  border: 1px solid #333;
+}
+
+.myworks-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffc107;
+}
