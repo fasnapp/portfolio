@@ -10,9 +10,9 @@ const skills = [
 ];
 
 const About = () => (
-  <section className="about container-fluid text-white py-5">
+  <section className="about container-fluid text-white py-5" id="about">
     <div className="container">
-      <h2 className="text-center mt-0 mb-5 display-4">About Me</h2>
+      <h1 className="text-center mt-0 mb-5">About Me</h1>
       <div className="row align-items-center">
         {/* Left: Profile Image */}
         <div className="col-md-4 text-center mb-4 mb-md-0">

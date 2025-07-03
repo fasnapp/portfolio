@@ -1,0 +1,81 @@
+/* Container settings */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section background and spacing */
+.contact-section {
+  /* background-color: #000; dark-themed bg */
+  margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Outfit;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* Highlighted subheading text */
+.highlight-text {
+  font-weight: 700;
+  background: #ffc107;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Introductory paragraph styling */
+.contact-intro {
+  color: #d8d8d8;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Icon styling for email, phone, location */
+.icon {
+  font-size: 1.5rem;
+  color: #ffc107; /* Bootstrap warning yellow */
+}
+
+/* Spacing between icon and text */
+.icon + span {
+  margin-left: 0.75rem;
+}
+
+/* Form control adjustments */
+.form-input,
+.form-message {
+  background: #32323c;
+  color: #a0a0a0;
+  border: none;
+  border-radius: 4px;
+}
+.form-input:focus,
+.form-message:focus {
+  box-shadow: none;
+  border: none;
+}
+
+/* Submit button customization */
+.btn-submit {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.btn-submit:hover {
+  transform: scale(1.05);
+  background-color: #ffc107;
+  color: #000;
+}
+

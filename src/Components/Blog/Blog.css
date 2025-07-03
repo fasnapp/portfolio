@@ -1,0 +1,21 @@
+.blog-card {
+  transition: transform 0.3s, background-color 0.3s; border: 0.3s;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  background-color: #1a1a1a;
+  border: 2px solid #ffc107;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+

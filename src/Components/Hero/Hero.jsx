@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => (
   <div className="hero text-center py-5">
@@ -15,8 +16,8 @@ const Hero = () => (
 
     {/* Hero Action Buttons */}
     <div className="hero-action d-flex justify-content-center gap-3">
-      <button type="button" className="btn btn-white hero-btn">Connect with me</button>
-      <button type="button" className="btn btn-white hero-btn">My resume</button>
+      <button type="button" className="btn btn-white rounded-pill px-4 py-3 hero-btn"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></button>
+      <button type="button" className="btn btn-white rounded-pill px-4 py-3 hero-btn">My resume</button>
     </div>
   </div>
 );

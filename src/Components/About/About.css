@@ -1,5 +1,9 @@
 
-
+h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
 /* Adjust profile image size */
 .about-img {
   width: 250px;
@@ -10,7 +14,7 @@
 
 /* Paragraph styling */
 .about-para p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.6;
 }
 .progress{

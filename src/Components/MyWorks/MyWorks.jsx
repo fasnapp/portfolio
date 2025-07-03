@@ -31,7 +31,7 @@ const projects = [
 const MyWorks = () => (
     <section className="myworks-section text-white py-5" id="projects">
     <div className="container">
-      <h2 className="text-center mb-5">My Projects</h2>
+      <h1 className="text-center mb-5">My Projects</h1>
       <div className="row g-4">
         {projects.map((project, idx) => (
           <div className="col-md-4" key={idx}>
